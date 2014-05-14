@@ -43,7 +43,9 @@
 <div class="content pure-g-r">
 	<div class="header pure-u-1">
 		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
-			<a class="pure-menu-heading" href="/">Your Site</a>
+			<a class="pure-menu-heading" href="/">
+				<img src="https://googledrive.com/host/0BzBgMD5dr8-QSGhTZ09NYmlURTA/LogoBusiness2.png" alt="Haute Hospitality"/>
+			</a>
 
 			<ul>
 				<li class="pure-menu-selected"><a href="/">Home</a></li>

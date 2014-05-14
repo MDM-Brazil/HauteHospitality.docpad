@@ -19,8 +19,20 @@ body {
         .header .pure-menu li a:focus {
             background: none;
             border: none;
-            color: #aaa;
+            color: #fff;
         }
+	.pure-menu.pure-menu-open.pure-menu-fixed{
+		background: rgba(255,255,255,0.6);
+		border: 0;
+		margin: 39px 0 0 0;
+		height: 77px;
+	}
+	.pure-menu-heading img{
+		height: 144px;
+	}
+	.pure-menu.pure-menu-horizontal, .pure-menu.pure-menu-horizontal .pure-menu-heading{
+		margin: -37px 0 0 0;
+	}
 
 body .primary-button {
     background: #02a6eb;
@@ -28,11 +40,19 @@ body .primary-button {
 }
 
 .splash {
-    margin: 2em auto 0;
-    padding: 3em 0.5em;
-    background: #eee;
+    margin: -56px auto 0;
+    padding: 0 0.5em 3em;
+	height: 777px;
+    background: url(https://googledrive.com/host/0B9LVk4xbDIJTbzI1NHRXYTNyMmM/poster_cartaz_oficial_brasil2014_alta_eng.jpg) no-repeat center;
 }
+	.splash-message{
+		margin: 242px auto 0;
+		padding: 0 3em;
+		background: rgba(255, 255, 255, 0.93);
+		border-radius: 6px;
+	}
     .splash .splash-head {
+		color: #013a81;
         font-size: 300%;
         margin: 0em 0;
         line-height: 1.2em;
