@@ -38,12 +38,16 @@ docpadConfig = {
 
 			# Styles
 			styles: [
+				"//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap-rtl.min.css"
 				"http://yui.yahooapis.com/pure/0.4.2/pure-min.css"
 				"styles/style.css"
 			]
 
 			# Scripts
-			scripts: []
+			scripts: [
+				"//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"
+			]
 
 
 
