@@ -14,24 +14,49 @@ body {
     .header .pure-menu {
         padding: 0.5em;
     }
-
+		.header .pure-menu ul{
+			float: left;
+		}
+		.header .pure-menu li{
+			background: transparent;
+			border: 2px solid #013a81;
+			border-radius: 5px;
+			margin: 0 4px;
+		}
+		.header .pure-menu li a{
+			color: #013a81;
+			background: #fff;
+		}
         .header .pure-menu li a:hover,
         .header .pure-menu li a:focus {
             background: none;
             border: none;
-            color: #fff;
         }
+		.pure-menu .pure-menu-selected a{
+			color: #fff !important;
+			font-weight: bold;
+			border: 2px solid yellow !important;
+			border-radius: 4px;
+			background: #009640 !important;
+		}
 	.pure-menu.pure-menu-open.pure-menu-fixed{
-		background: rgba(255,255,255,0.6);
+		background: transparent;
 		border: 0;
 		margin: 39px 0 0 0;
 		height: 77px;
+		width: 100%;
+		max-width: 1080px;
+		margin: auto;
+		text-align: center;
+		top: 33px;
+		right: 0;
 	}
 	.pure-menu-heading img{
 		height: 144px;
 	}
 	.pure-menu.pure-menu-horizontal, .pure-menu.pure-menu-horizontal .pure-menu-heading{
 		margin: -37px 0 0 0;
+		float: left;
 	}
 
 body .primary-button {
@@ -39,11 +64,22 @@ body .primary-button {
     color: #fff;
 }
 
+.contraint{
+	max-width: 1080px;
+	margin: auto;
+}
+.center{
+	text-align: center;
+}
+.block{
+	display: block;
+}
+
 .splash {
     margin: -56px auto 0;
     padding: 0 0.5em 3em;
 	height: 777px;
-    background: url(https://googledrive.com/host/0B9LVk4xbDIJTbzI1NHRXYTNyMmM/poster_cartaz_oficial_brasil2014_alta_eng.jpg) no-repeat center;
+    background: url(https://googledrive.com/host/0B9LVk4xbDIJTbzI1NHRXYTNyMmM/poster_cartaz_oficial_brasil2014_alta_eng.jpg) repeat-x center;
 }
 	.splash-message{
 		margin: 242px auto 0;
@@ -93,9 +129,12 @@ body .primary-button {
     }
 
 .footer {
-    background: #111;
-    color: #666;
+    background: #002859;
+    color: #999;
     text-align: center;
     padding: 1em;
     font-size: 80%;
 }
+	.footer-ribbon .primary-button{
+		margin: 0 13px;
+	}
